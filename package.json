@@ -1,0 +1,23 @@
+{
+  "name": "exif-async",
+  "version": "1.0.0",
+  "description": "Get exif data from images using async/await or promises",
+  "main": "index.js",
+  "dependencies": {
+    "exif": "^0.6.0"
+  },
+  "scripts": {
+    "test": "node --version && ./test/test.sh",
+    "test:exif": "node ./test/test ./test/photo_exif.jpg",
+    "test:noExif": "node ./test/test ./test/photo_no_exif.jpg"
+  },
+  "keywords": [
+    "exif"
+  ],
+  "author": "Jacek Wasowski <jacek.wasowski@yahoo.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacek.wasowski/exif-async.git"
+  },
+  "license": "MIT"
+}
