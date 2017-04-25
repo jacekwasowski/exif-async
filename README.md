@@ -11,7 +11,7 @@ npm install exif-async
 
 ## Usage
 
-Import ()or require) default function
+Import (or require) default function
 ```javascript
 import getExif from 'exif-async';
 ```
