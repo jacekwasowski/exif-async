@@ -5,18 +5,18 @@ A node.js wrapper around [exif](https://www.npmjs.com/package/exif) module.
 
 ## Installation
 
-``
+```bash
 npm install exif-async
-``
+```
 
 ## Usage
 
-Import or require default function
+Import ()or require) default function
 ```javascript
 import getExif from 'exif-async';
 ```
 
-async/await, node >=6.7.0
+use async/await for node >=6.7.0
 ```javascript
 (async () => {
   try {
@@ -28,7 +28,7 @@ async/await, node >=6.7.0
 })();
 ```
 
-promise
+os promises
 ```javascript
 getExif('./photo_exif.jpg')
   .then((exif) => { console.log(exif) })
