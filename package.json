@@ -1,6 +1,6 @@
 {
   "name": "exif-async",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get EXIF data from JPG files using async/await functions or promises.",
   "main": "index.js",
   "dependencies": {

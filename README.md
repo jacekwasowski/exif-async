@@ -16,14 +16,14 @@ Import (or require) default function
 import getExif from 'exif-async';
 ```
 
-use async/await for node >=6.7.0
+use async/await for node >=7.6.0
 ```javascript
 (async () => {
   try {
     const exif = await getExif('./photo_exif.jpg');
-    console.log(exif)
+    console.log(exif);
   } catch (err) {
-    console.log(err)
+    console.log(err);
   }
 })();
 ```
