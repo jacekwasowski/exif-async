@@ -28,7 +28,7 @@ use async/await for node >=7.6.0
 })();
 ```
 
-os promises
+or promises
 ```javascript
 getExif('./photo_exif.jpg')
   .then((exif) => { console.log(exif) })
