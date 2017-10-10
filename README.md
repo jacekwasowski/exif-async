@@ -1,12 +1,12 @@
 # exif-async
 
-Get EXIF data from JPG files using async/await functions or promises.
+> Get EXIF data from JPG files using async/await functions or promises.
 A node.js wrapper around [exif](https://www.npmjs.com/package/exif) module.
 
 ## Installation
 
 ```bash
-npm install exif-async
+npm i -D exif-async
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ use async/await for node >=7.6.0
 or promises
 ```javascript
 getExif('./photo_exif.jpg')
-  .then((exif) => { console.log(exif) })
-  .catch((err) => { console.log(err) });
+  .then((exif) => { console.log(exif); })
+  .catch((err) => { console.log(err); });
 ```
 
