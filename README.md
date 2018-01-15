@@ -10,13 +10,12 @@ npm i -D exif-async
 ```
 
 ## Usage
-
 Import (or require) default function
 ```javascript
 import getExif from 'exif-async';
 ```
 
-use async/await for node >=7.6.0
+use async/await
 ```javascript
 (async () => {
   try {
@@ -34,4 +33,7 @@ getExif('./photo_exif.jpg')
   .then((exif) => { console.log(exif); })
   .catch((err) => { console.log(err); });
 ```
+
+## License
+MIT
 

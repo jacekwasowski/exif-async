@@ -1,4 +1,4 @@
-const ExifImage = require("exif");
+const ExifImage = require('exif');
 
 module.exports = function (image) {
   return new Promise((resolve, reject) => {
